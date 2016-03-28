@@ -1,0 +1,15 @@
+{
+    "name": "lebaz20/orm-fixture-loader",
+    "description": "Load fixtures for doctrine orm for unit testing",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-pdo_sqlite": "*",
+        "fzaninotto/faker": "^1.5",
+        "doctrine/orm": "v2.5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.x",
+        "doctrine/data-fixtures": "1.1.x"
+    }
+}
